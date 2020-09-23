@@ -12,6 +12,19 @@
               <ion-label>{{ p.title }}</ion-label>
             </ion-item>
           </ion-menu-toggle>
+
+
+          <ion-item lines="none" detail="fase" routerLink="back" [routerLink]="['/contato']">
+            <ion-icon slot="end" name="people-circle-outline"></ion-icon>
+            <ion-label>Contato</ion-label>
+          </ion-item>
+
+          <ion-item lines="none" detail="fase" >
+            <ion-icon slot="start" name="trail-sign-outline"></ion-icon>
+            <ion-label>Escolhas</ion-label>
+          </ion-item>
+
+       
         </ion-list>
 
         <ion-list id="labels-list">
